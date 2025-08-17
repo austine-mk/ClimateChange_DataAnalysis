@@ -28,8 +28,8 @@ numpy
 scikit-learn (optional for advanced analysis)
 Install these libraries using pip:
 
-## Data Loading: The dataset is loaded using pandas. Ensure the CSV file is in the correct location or modify the file path accordingly in the script.
-python
+## Data Loading: 
+The dataset is loaded using pandas. Ensure the CSV file is in the correct location or modify the file path accordingly in the script.
 Preprocessing: The preprocessing steps outlined in the project are applied to clean and prepare the data for analysis. This includes handling missing values, detecting outliers, and normalizing relevant variables.
 
 ## Analysis: Various analyses can be performed on the dataset, such as:
@@ -40,14 +40,9 @@ Comparative analysis of regional and crop-specific climate impacts.
 Visualization: Visualizations like line charts, scatter plots, and heatmaps are created using matplotlib and seaborn to present the data insights.
 
 ## Project Structure
-data/: Contains the climate-agriculture dataset.
-notebooks/: Jupyter notebooks used for data exploration and analysis.
-visualizations/: Output of data visualizations (charts, graphs).
-scripts/: Python scripts for data loading, preprocessing, and analysis.
+data: Contains the climate-agriculture dataset.
+notebooks: Jupyter notebooks used for data exploration and analysis.
+visualizations: Output of data visualizations (charts, graphs).
+scripts: Python scripts for data loading, preprocessing, and analysis.
 
-This project is sourced from **https://www.kaggle.com/
-**
-Future Work
-Expand the dataset to include more recent climate data.
-Explore machine learning models to predict future crop yields under various climate scenarios.
-Incorporate more region-specific data to analyze localized climate impacts.
+This project is sourced from **https://www.kaggle.com/**
